@@ -1,0 +1,26 @@
+.HomePageContainer {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+.ListHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ListHeader h1 {
+  font-size: 3rem;
+}
+.SelectFiters {
+  background-color: white;
+  border-radius: 0.36rem;
+  outline: none;
+  border: none;
+  font-size: 1.4rem;
+  padding: 0.5rem;
+}
+.HorizontalLine {
+  height: 0.1rem;
+  background-color: grey;
+  margin: 1rem 0rem;
+  width: 100%;
+}

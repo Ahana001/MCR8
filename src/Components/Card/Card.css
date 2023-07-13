@@ -1,0 +1,35 @@
+.CardContainer {
+  height: 20rem;
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: black;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.2rem;
+  user-select: none;
+}
+.CardImageContainer {
+  position: relative;
+}
+.CardImageContainer img {
+  height: 16rem;
+  width: 20rem;
+  border-radius: 0.36rem;
+}
+.CardImageContainer div:first-of-type {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  background-color: white;
+  border-radius: 0.36rem;
+  padding: 0.5rem 1rem;
+}
+.EventTime {
+  color: gray;
+}
+.EventName {
+  font-size: 1.6rem;
+  font-weight: 600;
+}

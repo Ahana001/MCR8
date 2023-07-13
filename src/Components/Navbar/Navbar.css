@@ -1,0 +1,27 @@
+.NavbarContainer {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+.LeftNavbarItems {
+  color: #f6415f;
+}
+.SearcBoxContainer {
+  background-color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  border-radius: 0.36rem;
+  color: grey;
+}
+.SearchIcon {
+  font-size: 2rem;
+}
+.SearcBoxContainer input {
+  border: none;
+  outline: none;
+}
